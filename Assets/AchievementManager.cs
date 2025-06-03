@@ -22,6 +22,7 @@ public class AchievementManager : MonoBehaviour
 	public void UnlockCard(string key)
 	{
 		var cardData = PeriodicCardTable.Instance.TableLoader.GetDataForEntry(key);
+		if(cardData == null) { return; }
 		achievementCard.transform.DOScale(Vector3.zero, 0f);
 
 		achievementSequence = DOTween.Sequence();
