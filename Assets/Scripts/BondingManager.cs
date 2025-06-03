@@ -25,8 +25,7 @@ public class BondingManager : MonoBehaviour
 
     private void Update()
     {
-        var atoms = FindObjectsOfType<Atom>();
-
+        var atoms = FindObjectsByType<Atom>(FindObjectsSortMode.None);
         for (var i = 0; i < atoms.Length; i++)
         for (var j = i + 1; j < atoms.Length; j++)
         {
