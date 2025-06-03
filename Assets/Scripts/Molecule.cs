@@ -1,5 +1,6 @@
 using System.Collections.Generic;
 using System.Linq;
+using DG.Tweening;
 using UnityEngine;
 
 public class Molecule : MonoBehaviour
@@ -12,6 +13,7 @@ public class Molecule : MonoBehaviour
         atom.currentMolecule = this;
         atom.transform.SetParent(transform, true);
         atom.GetComponent<AtomDragger>().enabled = false;
+        atom.transform.DOPunchScale(atom.transform.localScale * 0.75f, 0.25f).SetEase(Ease.InBounce);
     }
 
     public void MergeWith(Molecule other)
