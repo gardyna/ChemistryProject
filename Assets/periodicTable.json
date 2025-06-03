@@ -1,0 +1,145 @@
+{
+"elements": [
+  {
+    "AtomicNumber": 1,
+    "EntryName": "Hydrogen",
+    "AtomicSymbol": "H",
+    "EntryFact": "Hydrogen is the most abundant chemical substance in the universe.",
+    "EntryGraphic": "Sprites/Hydrogen"
+  },
+  {
+    "AtomicNumber": 2,
+    "EntryName": "Helium",
+    "AtomicSymbol": "He",
+    "EntryFact": "Helium is the second lightest and second most abundant element in the observable universe.",
+    "EntryGraphic": "Sprites/Helium"
+  },
+  {
+    "AtomicNumber": 3,
+    "EntryName": "Lithium",
+    "AtomicSymbol": "Li",
+    "EntryFact": "Lithium is a soft, silvery-white alkali metal.",
+    "EntryGraphic": "Sprites/Lithium"
+  },
+  {
+    "AtomicNumber": 4,
+    "EntryName": "Beryllium",
+    "AtomicSymbol": "Be",
+    "EntryFact": "Beryllium is a hard, grayish-white metal.",
+    "EntryGraphic": "Sprites/Beryllium"
+  },
+  {
+    "AtomicNumber": 5,
+    "EntryName": "Boron",
+    "AtomicSymbol": "B",
+    "EntryFact": "Boron is a metalloid element.",
+    "EntryGraphic": "Sprites/Boron"
+  },
+  {
+    "AtomicNumber": 6,
+    "EntryName": "Carbon",
+    "AtomicSymbol": "C",
+    "EntryFact": "Carbon is a nonmetal that has two main forms: graphite and diamond.",
+    "EntryGraphic": "Sprites/Carbon"
+  },
+  {
+    "AtomicNumber": 7,
+    "EntryName": "Nitrogen",
+    "AtomicSymbol": "N",
+    "EntryFact": "Nitrogen is a colorless, odorless, and inert gas.",
+    "EntryGraphic": "Sprites/Nitrogen"
+  },
+  {
+    "AtomicNumber": 8,
+    "EntryName": "Oxygen",
+    "AtomicSymbol": "O",
+    "EntryFact": "Oxygen is essential for respiration in most living organisms.",
+    "EntryGraphic": "Sprites/Oxygen"
+  },
+  {
+    "AtomicNumber": 9,
+    "EntryName": "Fluorine",
+    "AtomicSymbol": "F",
+    "EntryFact": "Fluorine is a pale yellow, corrosive gas.",
+    "EntryGraphic": "Sprites/Fluorine"
+  },
+  {
+    "AtomicNumber": 10,
+    "EntryName": "Neon",
+    "AtomicSymbol": "Ne",
+    "EntryFact": "Neon is a colorless, odorless, inert gas.",
+    "EntryGraphic": "Sprites/Neon"
+  },
+  {
+    "AtomicNumber": 11,
+    "EntryName": "Sodium",
+    "AtomicSymbol": "Na",
+    "EntryFact": "Sodium is a soft, silvery-white, highly reactive metal.",
+    "EntryGraphic": "Sprites/Sodium"
+  },
+  {
+    "AtomicNumber": 12,
+    "EntryName": "Magnesium",
+    "AtomicSymbol": "Mg",
+    "EntryFact": "Magnesium is a shiny gray solid.",
+    "EntryGraphic": "Sprites/Magnesium"
+  },
+  {
+    "AtomicNumber": 13,
+    "EntryName": "Aluminum",
+    "AtomicSymbol": "Al",
+    "EntryFact": "Aluminum is a silvery-white, soft, nonmagnetic metal.",
+    "EntryGraphic": "Sprites/Aluminum"
+  },
+  {
+    "AtomicNumber": 14,
+    "EntryName": "Silicon",
+    "AtomicSymbol": "Si",
+    "EntryFact": "Silicon is a hard and brittle crystalline solid.",
+    "EntryGraphic": "Sprites/Silicon"
+  },
+  {
+    "AtomicNumber": 15,
+    "EntryName": "Phosphorus",
+    "AtomicSymbol": "P",
+    "EntryFact": "Phosphorus is a nonmetal that exists in several allotropes.",
+    "EntryGraphic": "Sprites/Phosphorus"
+  },
+  {
+    "AtomicNumber": 16,
+    "EntryName": "Sulfur",
+    "AtomicSymbol": "S",
+    "EntryFact": "Sulfur is a yellow, nonmetallic element.",
+    "EntryGraphic": "Sprites/Sulfur"
+  },
+  {
+    "AtomicNumber": 17,
+    "EntryName": "Chlorine",
+    "AtomicSymbol": "Cl",
+    "EntryFact": "Chlorine is a yellow-green gas with a strong odor.",
+    "EntryGraphic": "Sprites/Chlorine"
+  },
+  {
+    "AtomicNumber": 18,
+    "EntryName": "Argon",
+    "AtomicSymbol": "Ar",
+    "EntryFact": "Argon is a colorless, odorless, inert gas.",
+    "EntryGraphic": "Sprites/Argon"
+  },
+  {
+    "AtomicNumber": 19,
+    "EntryName": "Potassium",
+    "AtomicSymbol": "K",
+    "EntryFact": "Potassium is a soft, wax-like texture metal.",
+    "EntryGraphic": "Sprites/Potassium"
+  },
+  {
+    "AtomicNumber": 20,
+    "EntryName": "Calcium",
+    "AtomicSymbol": "Ca",
+    "EntryFact": "Calcium is a silvery-white, soft metal.",
+    "EntryGraphic": "Sprites/Calcium"
+  }
+  ]
+  }
+ 
