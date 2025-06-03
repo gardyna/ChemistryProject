@@ -59,8 +59,6 @@ public class BondingManager : MonoBehaviour
                             mol.AddComponent<CanvasGroup>();
                             mol.AddComponent<RectTransform>();
                             newMol.AddComponent<MoleculeDragger>(); // Enable dragging
-                            a1.GetComponent<AtomDragger>().enabled = false;
-                            a2.GetComponent<AtomDragger>().enabled = false;
                         }
                         else if (a1.currentMolecule != null && a2.currentMolecule == null)
                         {

@@ -11,6 +11,7 @@ public class Molecule : MonoBehaviour
         atoms.Add(atom);
         atom.currentMolecule = this;
         atom.transform.SetParent(transform, true);
+        atom.GetComponent<AtomDragger>().enabled = false;
     }
 
     public void MergeWith(Molecule other)

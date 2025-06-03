@@ -19,6 +19,10 @@ public class AtomSpawner : MonoBehaviour
         );
 
         var a = atomPrefabs.FirstOrDefault(t => t.atomSymbol == symbol);
+        if (a == null)
+        {
+            return;
+        }
         GameObject atom = Instantiate(a.atomPrefab, spawnParent);
         atom.GetComponent<RectTransform>().anchoredPosition = spawnPos;
 
