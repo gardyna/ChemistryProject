@@ -6,18 +6,21 @@ using UnityEngine.Serialization;
 
 public class BondingManager : MonoBehaviour
 {
-    public static BondingManager Instance;
-
     [SerializeField] private float bondingDistance = 1.5f;
     [SerializeField] private Transform canvasTransform;
     [SerializeField] private string targetFormula;
 
     [SerializeField] private GameObject victoryPanel;
     [SerializeField] private GameObject buttonsContainer;
-    
+
+    [SerializeField] private AudioClip victorySound;
+    [SerializeField] private AudioClip mergeSound;
+
+    private AudioSource audioSource;
+
     private void Awake()
     {
-        Instance = this;
+        audioSource = GetComponent<AudioSource>();
     }
 
     private void Update()
@@ -87,6 +90,7 @@ public class BondingManager : MonoBehaviour
                         {
                             a1.currentMolecule.MergeWith(a2.currentMolecule);
                         }
+                        audioSource.PlayOneShot(mergeSound);
                         
                         if (a1.currentMolecule != null)
                         {
@@ -105,6 +109,7 @@ public class BondingManager : MonoBehaviour
     private IEnumerator ShowWin()
     {
         yield return new WaitForSeconds(2);
+        audioSource.PlayOneShot(victorySound);
         buttonsContainer.SetActive(false);
         victoryPanel.SetActive(true);
 
