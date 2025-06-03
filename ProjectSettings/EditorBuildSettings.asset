@@ -8,6 +8,21 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/SampleScene.unity
     guid: 8c9cfa26abfee488c85f1582747f6a02
+  - enabled: 1
+    path: Assets/Scenes/CreateSaltChallange.unity
+    guid: 30846363132054e2496f9f9e96a1f931
+  - enabled: 1
+    path: Assets/Scenes/CreateH2O2Challange.unity
+    guid: ca2aa7356292e40978757a3f6f52688b
+  - enabled: 1
+    path: Assets/Scenes/CreateWaterChallange.unity
+    guid: 3fb2ed0ea908e4f44b1c249f7cfb0c4b
+  - enabled: 1
+    path: Assets/Scenes/CreateDoubleBondChallange.unity
+    guid: c4e2b99310867423b9a526e879f2fc75
+  - enabled: 1
+    path: Assets/Scenes/CreateH2Challange.unity
+    guid: 678d51a3e44264e36804d4001da8bd2c
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0
