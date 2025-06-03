@@ -155,7 +155,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0.00010979422}
-  m_SizeDelta: {x: 0, y: 4097.08}
+  m_SizeDelta: {x: 0, y: 1654.69}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &62183209
 MonoBehaviour:
@@ -254,7 +254,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: You Made <color=blue>Water</color>!
+  m_text: You Made <color=blue>Hydrogen peroxide</color>!
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -281,7 +281,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 37.25
+  m_fontSize: 22.05
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -770,7 +770,7 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 1482198655}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0.89453465}
+  m_AnchorMin: {x: 0, y: 0.73886347}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 20, y: 20}
@@ -1153,8 +1153,8 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 616127406}
   m_HandleRect: {fileID: 616127405}
   m_Direction: 2
-  m_Value: 1
-  m_Size: 0.10546535
+  m_Value: 0.9999999
+  m_Size: 0.26113653
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -1908,8 +1908,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 0, y: -4097.08}
-  m_SizeDelta: {x: 483, y: 4097.08}
+  m_AnchoredPosition: {x: 0, y: -1654.69}
+  m_SizeDelta: {x: 483, y: 1654.69}
   m_Pivot: {x: 0, y: 0}
 --- !u!114 &1528788910
 MonoBehaviour:
@@ -1931,39 +1931,19 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Water is an inorganic compound with the chemical formula H2O. It is a
-    transparent, tasteless, odorless,[c] and nearly colorless chemical substance.
-    It is the main constituent of Earth's hydrosphere and the fluids of all known
-    living organisms (in which it acts as a solvent[20]). It is vital for all known
-    forms of life, despite not providing food energy or organic micronutrients. Its
-    chemical formula, H2O, indicates that each of its molecules contains one oxygen
-    and two hydrogen atoms, connected by covalent bonds. The hydrogen atoms are attached
-    to the oxygen atom at an angle of 104.45\xB0.[21] In liquid form, H2O is also
-    called \"water\" at standard temperature and pressure.\n\nBecause Earth's environment
-    is relatively close to water's triple point, water exists on Earth as a solid,
-    a liquid, and a gas.[22] It forms precipitation in the form of rain and aerosols
-    in the form of fog. Clouds consist of suspended droplets of water and ice, its
-    solid state. When finely divided, crystalline ice may precipitate in the form
-    of snow. The gaseous state of water is steam or water vapor.\n\nWater covers
-    about 71.0% of the Earth's surface, with seas and oceans making up most of the
-    water volume (about 96.5%).[23] Small portions of water occur as groundwater
-    (1.7%), in the glaciers and the ice caps of Antarctica and Greenland (1.7%),
-    and in the air as vapor, clouds (consisting of ice and liquid water suspended
-    in air), and precipitation (0.001%).[24][25] Water moves continually through
-    the water cycle of evaporation, transpiration (evapotranspiration), condensation,
-    precipitation, and runoff, usually reaching the sea.\n\nWater plays an important
-    role in the world economy. Approximately 70% of the fresh water used by humans
-    goes to agriculture.[26] Fishing in salt and fresh water bodies has been, and
-    continues to be, a major source of food for many parts of the world, providing
-    6.5% of global protein.[27] Much of the long-distance trade of commodities (such
-    as oil, natural gas, and manufactured products) is transported by boats through
-    seas, rivers, lakes, and canals. Large quantities of water, ice, and steam are
-    used for cooling and heating in industry and homes. Water is an excellent solvent
-    for a wide variety of substances, both mineral and organic; as such, it is widely
-    used in industrial processes and in cooking and washing. Water, ice, and snow
-    are also central to many sports and other forms of entertainment, such as swimming,
-    pleasure boating, boat racing, surfing, sport fishing, diving, ice skating, snowboarding,
-    and skiing. "
+  m_text: "Hydrogen peroxide is a chemical compound with the formula H2O2. In its
+    pure form, it is a very pale blue[5] liquid that is slightly more viscous than
+    water. It is used as an oxidizer, bleaching agent, and antiseptic, usually as
+    a dilute solution (3%\u20136% by weight) in water for consumer use and in higher
+    concentrations for industrial use. Concentrated hydrogen peroxide, or \"high-test
+    peroxide\", decomposes explosively when heated and has been used as both a monopropellant
+    and an oxidizer in rocketry.[6]\n\nHydrogen peroxide is a reactive oxygen species
+    and the simplest peroxide, a compound having an oxygen\u2013oxygen single bond.
+    It decomposes slowly into water and elemental oxygen when exposed to light, and
+    rapidly in the presence of organic or reactive compounds. It is typically stored
+    with a stabilizer in a weakly acidic solution in an opaque bottle. Hydrogen peroxide
+    is found in biological systems including the human body. Enzymes that use or
+    decompose hydrogen peroxide are classified as peroxidases. "
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -2417,7 +2397,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   bondingDistance: 100
   canvasTransform: {fileID: 668402368}
-  targetFormula: H2O
+  targetFormula: H2O2
   victoryPanel: {fileID: 1783909915}
   buttonsContainer: {fileID: 1777460504}
 --- !u!4 &1772849750
@@ -2819,7 +2799,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Make H2O
+  m_text: Make H2O2
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
