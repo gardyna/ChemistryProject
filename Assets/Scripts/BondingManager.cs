@@ -1,5 +1,7 @@
+using System.Collections;
 using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.Serialization;
 
 public class BondingManager : MonoBehaviour
 {
@@ -7,7 +9,11 @@ public class BondingManager : MonoBehaviour
 
     [SerializeField] private float bondingDistance = 1.5f;
     [SerializeField] private Transform canvasTransform;
+    [SerializeField] private string targetFormula;
 
+    [SerializeField] private GameObject victoryPanel;
+    [SerializeField] private GameObject buttonsContainer;
+    
     private void Awake()
     {
         Instance = this;
@@ -77,9 +83,25 @@ public class BondingManager : MonoBehaviour
                         {
                             string formula = a1.currentMolecule.GetChemicalFormula();
                             Debug.Log("New molecule formed: " + formula);
+                            if (formula == targetFormula)
+                            {
+                                StartCoroutine(ShowWin());
+                            }
                         }
                     }
                 }
+        }
+    }
+
+    private IEnumerator ShowWin()
+    {
+        yield return new WaitForSeconds(2);
+        buttonsContainer.SetActive(false);
+        victoryPanel.SetActive(true);
+
+        foreach (var molecule in FindObjectsByType<Molecule>(FindObjectsSortMode.None))
+        {
+            molecule.gameObject.SetActive(false);
         }
     }
 }
