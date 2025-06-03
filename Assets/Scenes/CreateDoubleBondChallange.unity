@@ -2563,7 +2563,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ea170c8eb3634450ba2a4b42368a6ea3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nextLevel: CreateSaltChallange
+  nextLevel: CreateH2O2Challange
 --- !u!1 &1809647090
 GameObject:
   m_ObjectHideFlags: 0
