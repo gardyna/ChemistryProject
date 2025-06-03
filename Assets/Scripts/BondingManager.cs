@@ -89,7 +89,10 @@ public class BondingManager : MonoBehaviour
                         {
                             a1.currentMolecule.MergeWith(a2.currentMolecule);
                         }
+                        e1.GetComponent<Electron>().KillAnimation();
+                        e2.GetComponent<Electron>().KillAnimation();
                         audioSource.PlayOneShot(mergeSound);
+                        
                         
                         if (a1.currentMolecule != null)
                         {
