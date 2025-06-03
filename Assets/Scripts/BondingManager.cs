@@ -38,11 +38,11 @@ public class BondingManager : MonoBehaviour
 
                     if (e1 != null && e2 != null)
                     {
-                        
                         // Calculate bonding direction and positions
                         var center = (a1.transform.position + a2.transform.position) / 2f;
                         var direction = (a2.transform.position - a1.transform.position).normalized;
                         var spacing = 10f; // pixel offset
+                        
                         // Check if we are making a double bond
                         if (a1.currentMolecule == a2.currentMolecule && 
                             a1.currentMolecule != null && a2.currentMolecule != null)

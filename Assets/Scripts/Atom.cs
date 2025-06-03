@@ -65,4 +65,9 @@ public class Atom : MonoBehaviour
     {
         RemoveElectron(partnerElectron);
     }
+
+    public bool HasTripleBond()
+    {
+        return (maxValenceElectrons - activeElectrons.Count) > 3;
+    }
 }
