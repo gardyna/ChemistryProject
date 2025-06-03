@@ -36,7 +36,9 @@ public class Molecule : MonoBehaviour
         {
             if (kv.Key == "C") return 0;
             if (kv.Key == "H") return 1;
-            return 2;
+            if (kv.Key == "Na") return 2;
+            if (kv.Key == "Cl") return 3;
+            return int.MaxValue;
         }).ThenBy(kv => kv.Key);
 
         // Build formula
