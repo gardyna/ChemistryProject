@@ -149,6 +149,32 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: VisionOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -385,7 +411,17 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      hydrogenaiart_0: 6912588809452397577
+      hydrogenaiart_1: 214476601992669379
+      hydrogenaiart_2: 672783924421757471
+      hydrogenaiart_3: -1159300196561948207
+      hydrogenaiart_4: -3139981353278444064
+      hydrogenaiart_5: -8261253913112160963
+      hydrogenaiart_6: 4718837143067882384
+      hydrogenaiart_7: 2042385967610465999
+      hydrogenaiart_8: 3940846661440792088
+      hydrogenaiart_9: 4595185868757221008
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
