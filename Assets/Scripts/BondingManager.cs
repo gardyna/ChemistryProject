@@ -119,6 +119,11 @@ public class BondingManager : MonoBehaviour
         {
             molecule.gameObject.SetActive(false);
         }
+
+        foreach (var atom in FindObjectsByType<Atom>(FindObjectsSortMode.None))
+        {
+            atom.gameObject.SetActive(false);
+        }
     }
 }
 
